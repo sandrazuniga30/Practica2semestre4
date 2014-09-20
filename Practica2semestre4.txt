@@ -1,0 +1,238 @@
+<!DOCTYPE html
+<html>
+	<head>
+		<meta name="Description" content="Ejemplo de una formulario en html"/>
+		<meta name="keyswords"content="HTML,CSS3,JavaScript/>
+		
+		
+		
+			
+		<title>Formulario<title/>
+	</head>
+	
+	<body>
+		<div>
+		<form action="datos.html"method="post">
+		<fieldset>
+			<legend>Laboral</legend>
+			<label for="txtNombre">Empleado</label>
+			<br/>
+			<br/>
+			
+			<label for="txtCodigo">Codigo</label><br/>
+			<input type="password" size="40" maxlength="255" id="txtcodigo" name="codigo" />
+			<br/>
+			<br/>
+			
+			<label for="txtIngresoo">Fecha de Ingreso</label><br/>
+			<input type="text"size="40" maxlength="225" id="txtIngreso" name="Ingreso"/>
+
+			<br/>
+			<br/>
+
+			<label for="txtSeguridad Social">Seguridad Social</label><br/>
+			
+			<select>
+  					<option value="Estudiante">Estudiante</option>
+  					<option value="pencionado">Pencionado</option>
+  					
+			</select>
+
+			<br/>
+			<br/>
+
+			<label for="txtFecha">Numero</label><br/>
+			<input type="text"size="40" maxlength="225" id="txtFecha" name="Fecha"/>
+
+			<br/>
+			<br/>
+
+			
+
+		</fieldset>
+		
+		<fieldset>
+	
+
+			<legend>Personal</legend>
+
+
+			<label for="txtCorreo">Nombre</label><br/>
+			<input type="text" size="40" maxlength="255" id="txtNombre" name="Nombre" />
+			<br/>
+			<br/>
+			
+			<label for="Apellido Paterno">Apellido Paterno</label><br/>
+			<input type="text" size="40" maxlength="255" id="txtpaterno" name="paterno" />
+			<br/>
+			<br/>
+			 
+
+
+
+			<label for="txtCorreo">Apellido Materno</label><br/>
+			<input type="text" size="40" maxlength="255" id="txtMaterno" name="Apellido Materno" />
+			<br/>
+			<br/>
+
+
+
+			
+			<label for="txtSexo"> Sexo</label><br/>
+			<input type="radio" id="pro" name="sexo" value="1"/>
+					<label for="hombre"> Hombre </label><br/>
+			<input type="radio" id="pro3" name="sexo" value="3">
+					<label for="mujer"> Mujer </label><br/>
+
+
+			
+
+
+
+			
+
+
+
+				<label for="txtEstado Civil">Estado Civil</label><br/>
+			<select>
+  					<option value="Casado">Casado</option>
+  					<option value="Soltero">Soltero</option>
+  					
+			</select>
+
+
+
+			
+
+
+			
+		</fieldset>
+
+
+		<fieldset>
+			<legend>Nacimiento</legend>
+			
+			<label for="txtNacieminto">Fecha de nacimiento</label><br/>
+			<input type="text"size="40" maxlength="225" id="txtIngreso" name="Nacimiento"/>
+			<br/>
+
+			
+			
+				<label for="txtEstado">Estado</label><br/>
+				
+				<select>
+  					<option value="Jalisco">Jalisco</option>
+  					<option value="Veracruz">Veracruz</option>
+					<option value="Sonora">Sonora</option>
+  					<option value="Sinaloa">Sinaloa</option>
+					<option value="Colima">Colima</option>
+  					<option value="Zacatecas">Zacatecas</option>
+  					
+				</select>
+		</fieldset>
+
+		<fieldset>
+		<legend>Contacto</legend>
+
+			<label for="Titulo">Titulo</label><br/>
+			<input type="text" size="40" maxlength="255" id="txttitulo" name="Titulo" />
+			<br/>
+			<br/>
+
+			<label for="Curp">Curp</label><br/>
+			<input type="text" size="40" maxlength="255" id="txtcurp" name="Curp" />
+			<br/>
+			<br/>
+
+			<label for="RFC">RFC</label><br/>
+			<input type="text" size="40" maxlength="255" id="txtRFC" name="RFC" />
+			<br/>
+			<br/>
+
+			<label for="Telefono">Telefono</label><br/>
+			<input type="text" size="40" maxlength="255" id="txtTelefono" name="Telefono" />
+			<br/>
+			<br/>
+
+			<label for="Celular">Celular</label><br/>
+			<input type="text" size="40" maxlength="255" id="txtCelular" name="Celular" />
+			<br/>
+			<br/>
+
+			<label for="Domiclio">Domiclio</label><br/>
+			<input type="text" size="40" maxlength="255" id="txtDomiclio" name="Domiclio" />
+			<br/>
+			<br/>
+
+			<label for="Colonia">Colonia</label><br/>
+			<input type="text" size="40" maxlength="255" id="txtColonia" name="Colonia" />
+			<br/>
+			<br/>
+
+			<label for="codigop">Codigo Postal</label><br/>
+			<input type="numeric" size="40" maxlength="255" id="txtcodigp" name="codigop" />
+			<br/>
+			<br/>
+			
+			<label for="txtEstado">Estado</label><br/>
+				
+				<select>
+  					<option value="Jalisco">Jalisco</option>
+  					<option value="Veracruz">Veracruz</option>
+					<option value="Sonora">Sonora</option>
+  					<option value="Sinaloa">Sinaloa</option>
+					<option value="Colima">Colima</option>
+  					<option value="Zacatecas">Zacatecas</option>
+				</select>
+			<br/>
+		
+
+
+
+
+
+
+
+
+		
+			<label for="radio">Radio</label><br/>
+			<input type="text" size="40" maxlength="255" id="txtradio" name="radio" />
+			<br/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			<label for="correo">Correo Electronico</label><br/>
+			<input type="text" size="40" maxlength="255" id="txtcorreo" name="correo" />
+			<br/>
+			<br/>
+			
+			<label for="Observaciones">Observaciones</label><br/>
+			<textarea name="observaciones" cools="31" rows="10">Escriba su mensaje....</textarea>
+			
+			
+
+
+
+
+		</fieldset>
+
+
+			<input type="submit" name="cancelar" value="Cancelar"/>
+			<input type="submit" name="agregar" value="Agregar"/>
+			
+		</form>
+		</div>
+	</body>
+</html>
